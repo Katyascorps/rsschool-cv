@@ -13,14 +13,45 @@ To my mind programming is the best way to create future.
 #### Skills 
 HTML, CSS 
 Photoshop
-#### 
+#### Code example
+
+``` <html>
+  <head>
+    <script>
+      function greeting() {
+        alert('Hello, World!');
+      }
+
+      function greeting2() {
+        const messageDiv = document.querySelector('#message');
+        messageDiv.innerHTML = "Hello, World!!! :)";
+      }
+    </script>
+    <style>
+      #message {
+        margin-top: 5px;
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button onclick="greeting();">Click me!</button>
+      <button onclick="greeting2();">Click me too!</button>
+    </div>
+    <div id="message">
+    </div>
+  </body>
+</html>
+```
 
 #### Education
 Mozyr State Pedagogical University
 #### Courses
 * HTML Academy
 * CSS
-* RS School Course JS/Frontend, stage 0
+* RS School Course JS/Frontend, stage 0 [RS School](rs.school)
 ---
 ### Languages
 * English - Upper-intermediate
